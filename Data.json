@@ -10,13 +10,6 @@
   ],
   "Teacher": [
     {
-      "FirstName": "hjhjhj",
-      "LastName": "qsdsqd",
-      "Email": "sdfsdf",
-      "Password": "sdfsdfd",
-      "id": 6
-    },
-    {
       "FirstName": "abdollah",
       "LastName": "sdqs",
       "Email": "sdfsdf",
@@ -43,6 +36,13 @@
       "Email": "sdfsdf",
       "Password": "sdfsdfd",
       "id": 10
+    },
+    {
+      "FirstName": "Moncef",
+      "LastName": "EL ATLASSY",
+      "Email": "Email@gmail.com",
+      "Password": "1234567890",
+      "id": 11
     }
   ],
   "Student": [
