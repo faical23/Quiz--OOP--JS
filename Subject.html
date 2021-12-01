@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Platform</title>
+    <link rel="stylesheet" href="./Assets/css/style.css">
+</head>
+<body>
+    <div class="IndexBtns HeaderBtn">
+        <a href="./Teacher.html" class="BtnTeacher">Teacher's</a>
+        <a href="./Student.html" class="BtnStudent">Student's</a>
+        <a href="./Quesion.html" class="BtnQuestion">Question's</a>
+        <a href="./Subject.html" class="BtnQuestion ActiveBtn">Subject's</a>
+        <a href="./Level.html" class="BtnQuestion">Level's</a>
+        <a href="./Quiz.html" class="BtnQuestion">Quiz's</a>
+    </div>
+        <div class="NestedSubject">
+        </div>
+    <div class="QuestionPage">
+        <div class="QuestionPage__AddQuetion">
+            <input type="text" placeholder="Id" class="Id" hidden>
+            <input type="text" placeholder="Subject Name" class="SubjectName">
+            <div class="AllBtns FirstBtns">
+                <button  class="AdminePage__AddTeacher">New Subject</button>
+                <button class="AdminePage__AddTeacher" Onclick="RefleshPage()" >Back to All Subject</button>
+            </div>
+            <div class="AllBtns SecondBtns">
+                <button class="AdminePage__AddTeacher UpdateSjt">Update Subject</button>
+                <button class="AdminePage__AddTeacher AdminePage__Cancel">Cancel</button>
+            </div>
+        </div>
+        <div class="QuestionPage__Question">
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script type='module' src="./Assets/Js/Subject.js" defer></script>
+    <script>
+        const RefleshPage = () =>{
+            location.reload();
+        }
+    </script>
+</body>
+</html>

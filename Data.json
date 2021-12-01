@@ -1,0 +1,347 @@
+{
+  "Admine": [
+    {
+      "id": 1,
+      "FristName": "faical",
+      "LastName": "Bahsis",
+      "Email": "Faissalabr@gmail.com",
+      "Password": 12345
+    }
+  ],
+  "Teacher": [
+    {
+      "FirstName": "hjhjhj",
+      "LastName": "qsdsqd",
+      "Email": "sdfsdf",
+      "Password": "sdfsdfd",
+      "id": 6
+    },
+    {
+      "FirstName": "abdollah",
+      "LastName": "sdqs",
+      "Email": "sdfsdf",
+      "Password": "sdfsdfd",
+      "id": 7
+    },
+    {
+      "FirstName": "faical",
+      "LastName": "bahsis",
+      "Email": "sdfsdf",
+      "Password": "sdfsdfd",
+      "id": 8
+    },
+    {
+      "FirstName": "badr",
+      "LastName": "qsdsq",
+      "Email": "qsdq",
+      "Password": "qsdqs",
+      "id": 9
+    },
+    {
+      "FirstName": "bahsis",
+      "LastName": "QSQ",
+      "Email": "sdfsdf",
+      "Password": "sdfsdfd",
+      "id": 10
+    }
+  ],
+  "Student": [
+    {
+      "FirstName": "faical",
+      "LastName": "bahsis",
+      "Email": "faical@gmail.com",
+      "Password": 12345,
+      "id": 1
+    },
+    {
+      "FirstName": "Fahd",
+      "LastName": "fahd",
+      "Email": "ABCD@gmail.com",
+      "Password": 12345,
+      "id": 2
+    },
+    {
+      "FirstName": "imad",
+      "LastName": "qsdqsd",
+      "Email": "sdfsdf",
+      "Password": "sdfsdfd",
+      "id": 3
+    }
+  ],
+  "Subject": [
+    {
+      "Type": "Parent",
+      "Name": "Programmation",
+      "Child": [
+        5,
+        6,
+        11,
+        14,
+        15
+      ],
+      "ParentId": 0,
+      "id": 1
+    },
+    {
+      "Type": "Parent",
+      "Name": "Math Informatique",
+      "Child": [
+        32
+      ],
+      "ParentId": 0,
+      "id": 2
+    },
+    {
+      "ParentId": 0,
+      "id": 3,
+      "Type": "Parent",
+      "Name": "Biology",
+      "Child": []
+    },
+    {
+      "ParentId": 0,
+      "id": 4,
+      "Type": "Parent",
+      "Name": "Physique",
+      "Child": []
+    },
+    {
+      "ParentId": 1,
+      "Type": "Child",
+      "Name": "Php",
+      "Child": [
+        7,
+        16
+      ],
+      "id": 5
+    },
+    {
+      "Type": "Chid",
+      "Name": "Javascript",
+      "Child": [
+        33
+      ],
+      "ParentId": 1,
+      "id": 6
+    },
+    {
+      "Type": "Child",
+      "Name": "Basic",
+      "Child": [
+        8
+      ],
+      "ParentId": 1,
+      "id": 7
+    },
+    {
+      "Type": "Child",
+      "Name": "Conditions",
+      "Child": [
+        9
+      ],
+      "id": 8
+    },
+    {
+      "Type": "Child",
+      "Name": "If/else",
+      "Child": [],
+      "id": 9
+    },
+    {
+      "Type": "Parent",
+      "Name": "historique",
+      "Child": [],
+      "id": 10
+    },
+    {
+      "ParentId": 1,
+      "Type": "Child",
+      "Name": "C#",
+      "Child": [],
+      "id": 11
+    },
+    {
+      "ParentId": 1,
+      "Type": "Child",
+      "Name": "java",
+      "Child": [],
+      "id": 13
+    },
+    {
+      "ParentId": 1,
+      "Type": "Child",
+      "Name": "Java",
+      "Child": [],
+      "id": 14
+    },
+    {
+      "ParentId": 1,
+      "Type": "Child",
+      "Name": "Html",
+      "Child": [],
+      "id": 15
+    },
+    {
+      "Type": "Child",
+      "Name": "OOP",
+      "Child": [],
+      "id": 16
+    },
+    {
+      "Type": "Child",
+      "Name": "tkhrbiqa",
+      "Child": [
+        19
+      ],
+      "id": 18
+    },
+    {
+      "Type": "Child",
+      "Name": "qsdqsdqs",
+      "Child": [],
+      "id": 19
+    },
+    {
+      "Type": "Child",
+      "Name": "hahha",
+      "Child": [],
+      "id": 21
+    },
+    {
+      "Type": "Child",
+      "Name": "azeazeaz",
+      "Child": [],
+      "id": 22
+    },
+    {
+      "Type": "Child",
+      "Name": "haytak",
+      "Child": [],
+      "ParentId": 26,
+      "id": 27
+    },
+    {
+      "Type": "Child",
+      "Name": "qdqs",
+      "Child": [],
+      "ParentId": 26,
+      "id": 28
+    },
+    {
+      "Type": "Child",
+      "Name": "If/else",
+      "Child": [],
+      "ParentId": 30,
+      "id": 31
+    },
+    {
+      "Type": "Child",
+      "Name": "Math Applique 1",
+      "Child": [],
+      "ParentId": 2,
+      "id": 32
+    },
+    {
+      "Type": "Child",
+      "Name": "Basic js",
+      "Child": [],
+      "ParentId": 6,
+      "id": 33
+    }
+  ],
+  "Question": [
+    {
+      "id": 1,
+      "SubjectId": 1,
+      "Type": "OneResponse",
+      "Difficuty": 1,
+      "Point": 100,
+      "Name": "Lore lorem ?",
+      "Reponses": [
+        {
+          "Reponse": "A",
+          "Status": true
+        },
+        {
+          "Reponse": "B",
+          "Status": false
+        },
+        {
+          "Reponse": "C",
+          "Status": true
+        },
+        {
+          "Reponse": "D",
+          "Status": true
+        }
+      ]
+    }
+  ],
+  "Levels": [
+    {
+      "Name": "Easy",
+      "Min": "150",
+      "Max": "350",
+      "id": 1
+    },
+    {
+      "Name": "medium",
+      "Min": "450",
+      "Max": "650",
+      "id": 2
+    },
+    {
+      "Name": "Hard",
+      "Min": "750",
+      "Max": "950",
+      "id": 3
+    }
+  ],
+  "Quizs": [
+    {
+      "id": 2,
+      "TeacherId": 1,
+      "SubjectId": 1,
+      "Name": "Quiz Html Semistre 1",
+      "StartLine": "10:00PM",
+      "DeadLine": "11:00PM",
+      "ShowResult": true,
+      "Scoore": "70%",
+      "QuizQuestion": [
+        1,
+        2,
+        8,
+        9,
+        18,
+        16,
+        15
+      ]
+    },
+    {
+      "id": 1,
+      "TeacherId": 2,
+      "Name": "Quiz Semistre 1",
+      "StartLine": "02:00PM",
+      "DeadLine": "03:00PM",
+      "ShowResult": false,
+      "Scoore": "80%",
+      "QuizQuestion": [
+        1,
+        2,
+        8,
+        9,
+        18,
+        16,
+        15
+      ]
+    }
+  ],
+  "Result": [
+    {
+      "id": 1,
+      "StudentId": 1,
+      "QuizId": 1,
+      "Scoore": "90%"
+    }
+  ]
+}

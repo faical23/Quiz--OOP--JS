@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Platform</title>
+    <link rel="stylesheet" href="./Assets/css/style.css">
+</head>
+<body>
+    <div class="IndexBtns HeaderBtn">
+        <a href="./Teacher.html" class="BtnTeacher ">Teacher's</a>
+        <a href="./Student.html" class="BtnStudent">Student's</a>
+        <a href="./Quesion.html" class="BtnQuestion">Question's</a>
+        <a href="./Subject.html" class="BtnQuestion">Subject's</a>
+        <a href="./Level.html" class="BtnQuestion ActiveBtn">Level's</a>
+        <a href="./Quiz.html" class="BtnQuestion">Quiz's</a>
+    </div>
+             <div class="AdmineLevel">
+            </div> 
+            <div class="LevelClicked">
+                    <h1 class="TitleLevele">Easy</h1>
+                    <div class="PointLevel">
+                        <h4>Min</h4>
+                        <input type="text" value="100" class="MinPoint">
+                        <h4>Points</h4>
+                    </div>
+                    <div class="PointLevel">
+                        <h4>Max</h4>
+                        <input type="text" value="300" class="MaxPoint">>
+                        <h4>Points</h4>
+                    </div>
+                    <button class="UpdateLevelFunction">Update</button>
+            </div>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script type='module' src="./Assets/Js/Level.js" defer></script>
+</body>
+</html>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Platform</title>
+    <link rel="stylesheet" href="./Assets/css/style.css">
+</head>
+<body>
+    <div class="IndexBtns HeaderBtn">
+        <a href="./Teacher.html" class="BtnTeacher ActiveBtn">Teacher's</a>
+        <a href="./Student.html" class="BtnStudent">Student's</a>
+        <a href="./Quesion.html" class="BtnQuestion">Question's</a>
+        <a href="./Subject.html" class="BtnQuestion">Subject's</a>
+        <a href="./Level.html" class="BtnQuestion">Level's</a>
+        <a href="./Quiz.html" class="BtnQuestion">Quiz's</a>
+    </div>
+    <div class="AdminePage">
+            <div class="AdminePage__Left">
+                        <input type="text" placeholder="Id" class="Id" hidden>
+                        <input type="text" placeholder="First Name" class="FirstName">
+                        <input type="text" placeholder="Last Name" class="LastName">
+                        <input type="text" placeholder="Email" class="Email">
+                        <input type="password" placeholder="Password" class="Password">
+                        <div class="AllBtns">
+                            <button  class="AdminePage__AddTeacher">New Teacher</button>
+                            <button class="AdminePage__AddTeacher AdminePage__UpdateTeacher">Update Teacher</button>
+                            <button class="AdminePage__AddTeacher AdminePage__Cancel">Cancel</button>
+                        </div>
+
+            </div>
+            <div class="AdminePage__Right">
+            </div>   
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script type='module' src="./Assets/Js/Index.js" defer></script>
+</body>
+</html>
