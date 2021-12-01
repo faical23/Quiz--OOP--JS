@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Platform</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="./Assets/css/style.css">
 </head>
 <body>
@@ -16,26 +17,52 @@
         <a href="./Level.html" class="BtnQuestion">Level's</a>
         <a href="./Quiz.html" class="BtnQuestion">Quiz's</a>
     </div>
-    <div class="QuestionPage">
+    <div class="QuestionPage QuestionsPgaetwo">
         <div class="QuestionPage__AddQuetion">
             <input type="text" placeholder="Id" class="Id" hidden>
-            <input type="text" placeholder="Question" class="FirstName">
-            <input type="text" placeholder="Last Name" class="LastName">
-            <input type="text" placeholder="Email" class="Email">
-            <input type="password" placeholder="Password" class="Password">
+            <h2>Question :</h2>
+            <input type="text" placeholder="Question" class="Question">
+            <h2>Subject :</h2>
+            <div class="NestedSubject">
+            </div>
+            <div class="QuestionPage__Question">
+            </div>
+            <h2>Level :</h2>
+            <select class="form-select" aria-label="Default select example">
+              </select>
+              <h2>Point :</h2>
+            <input type="text" placeholder="Point Question" value="100" class="QuestionPoint">
+            <h2>Reponses :</h2>
+            <div class="AllResponseQuestion">
+                <div class="ReponseQuestion">
+                    <div class="SingleReponse">
+                            <h4>Reponse 1</h4>
+                            <input type="text" placeholder="Reponse" class="SingleReponse__Reponse">
+                    </div>
+                    <div class="SingleStatus">
+                        <h4>Status 1</h4>
+                        <select class="form-select" aria-label="Default select example">
+                            <option value="true">True</option>
+                            <option value="false">false</option>
+                          </select>
+                    </div>
+                </div>
+                
+            </div>
+
+              <button class="NewReponse">New Reponse</button>
             <div class="AllBtns">
-                <button  class="AdminePage__AddTeacher">New Student</button>
-                <button class="AdminePage__AddTeacher AdminePage__UpdateTeacher">Update Student</button>
+                <button  class="AdminePage__AddTeacher">New Question</button>
+                <button class="AdminePage__AddTeacher AdminePage__UpdateTeacher">Update Question</button>
                 <button class="AdminePage__AddTeacher AdminePage__Cancel">Cancel</button>
             </div>
         </div>
-        <div class="QuestionPage__Question">
-            <div class="TeacherWeHave" data-type="${Element.id}">
-                <img data-type="${Element.id}" class="DeleteImg" src="./Assets/Img/supprimer.png" alt="">
-                <p>À quoi tu penses le soir en te couchant?</p>
-            </div>
-        </div>
+        <div class="QuestionWeHave">
+        </div>  
     </div>
 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script type="module" src="./Assets/Js/Question.js"></script>
 </body>
 </html>

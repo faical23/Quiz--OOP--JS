@@ -148,12 +148,6 @@
       "id": 9
     },
     {
-      "Type": "Parent",
-      "Name": "historique",
-      "Child": [],
-      "id": 10
-    },
-    {
       "ParentId": 1,
       "Type": "Child",
       "Name": "C#",
@@ -251,30 +245,68 @@
   ],
   "Question": [
     {
-      "id": 1,
-      "SubjectId": 1,
-      "Type": "OneResponse",
-      "Difficuty": 1,
-      "Point": 100,
-      "Name": "Lore lorem ?",
+      "Subject": "2",
+      "Difficuty": "3",
+      "Point": "900",
+      "Name": "what is html ?",
       "Reponses": [
         {
-          "Reponse": "A",
-          "Status": true
+          "Reponse": "QQ",
+          "Status": "true"
         },
         {
-          "Reponse": "B",
-          "Status": false
-        },
-        {
-          "Reponse": "C",
-          "Status": true
-        },
-        {
-          "Reponse": "D",
-          "Status": true
+          "Reponse": "QS",
+          "Status": "false"
         }
-      ]
+      ],
+      "id": 3
+    },
+    {
+      "Subject": "1",
+      "Difficuty": "1",
+      "Point": "100",
+      "Name": "qsdsdq ?",
+      "Reponses": [
+        {
+          "Reponse": "",
+          "Status": "true"
+        }
+      ],
+      "id": 4
+    },
+    {
+      "Subject": "6",
+      "Difficuty": "2",
+      "Point": "100",
+      "Name": "qsdqsd ?",
+      "Reponses": [
+        {
+          "Reponse": "",
+          "Status": "true"
+        }
+      ],
+      "id": 5
+    },
+    {
+      "Subject": "6",
+      "Difficuty": "2",
+      "Point": "300",
+      "Name": "WHAT IS CSS ?",
+      "Reponses": [
+        {
+          "Reponse": "aze",
+          "Status": "true"
+        },
+        {
+          "Reponse": "azea",
+          "Status": "true"
+        },
+        {
+          "Reponse": "azeaz",
+          "Status": "true"
+        }
+      ],
+      "id": 6
     }
   ],
   "Levels": [

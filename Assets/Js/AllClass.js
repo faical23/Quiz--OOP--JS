@@ -112,3 +112,29 @@ export class Level{
         axios.put(`${BASE_URL}/Levels/${Id}`,Data)
     }
 }
+
+export class Question{
+    constructor(Name,subject,Difficuty,Point,Reponses){
+        this.Name = Name;
+        this.subject = subject
+        this.Difficuty = Difficuty
+        this.Point = Point
+        this.Reponses = Reponses
+    }
+
+    async getAllQuestion(){
+        const Question = await axios.get(`${BASE_URL}/Question`)
+        return Question;
+    }
+    async AddQuestion(){
+        const Data = {
+            "Subject":this.subject,
+            "Difficuty":this.Difficuty,
+            "Point":this.Point,
+            "Name":this.Name,
+            "Reponses":this.Reponses
+        }
+        const Question = await axios.post(`${BASE_URL}/Question`,Data)
+        return Question
+    }
+}
